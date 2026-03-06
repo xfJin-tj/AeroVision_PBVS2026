@@ -10,7 +10,7 @@ Download the pretrained weights for the cross_model_2resnet, cross_model_1, and 
 
 For the dataset, place your test images in the specified folder. The images should be named with numerical identifiers as the script extracts image_id from the filename using regular expressions, and must be in PNG format.
 
-Run the inference by executing `python infer.py`. This will load the pretrained models (ensemble of cross_model_2resnet and cross_model_1 for Model1, DistillationNet for Model2), process the test images with respective transforms, fuse predictions using the specified fusion method based on class-wise F1 scores, generate final predictions, and save the results in a `results.csv file`. The output CSV will contain columns for `image_id`, `class_id`, and `score`.
+Run the inference by executing `python infer.py`. This will load the pretrained models, process the test images with respective transforms, fuse predictions using the specified fusion method based on class-wise F1 scores, generate final predictions, and save the results in a `results.csv` file. The output CSV will contain columns for `image_id`, `class_id`, and `score`.
 
 Once the script finishes running, submit the `results.csv` file to the competition platform.
 
