@@ -19,7 +19,7 @@ from sklearn.metrics import roc_curve
 # =========================
 device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 
-test_img_root = "/root/autodl-tmp/MAVOC_boilerplate/test"
+test_img_root = "./test"
 
 model1_1_path = "cross_model_2resnet.pth"
 model1_2_path = "cross_model_1.pth"
