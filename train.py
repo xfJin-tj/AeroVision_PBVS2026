@@ -551,7 +551,7 @@ if __name__ == '__main__':
     parser.add_argument('--train_csv', type=str, default='./entity_split1.csv')
     parser.add_argument('--test_csv', type=str, default='./validation_reference.csv')
     parser.add_argument('--test_sar_root', type=str, default='/root/autodl-tmp/MAVOC_boilerplate/val/')
-    parser.add_argument('--output_dir', type=str, default='./output_improved')
+    parser.add_argument('--output_dir', type=str, default='./')
     
     parser.add_argument('--eo_size', type=int, default=32)
     parser.add_argument('--sar_size', type=int, default=56)
