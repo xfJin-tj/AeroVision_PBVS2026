@@ -21,8 +21,8 @@ device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 
 test_img_root = "/root/autodl-tmp/MAVOC_boilerplate/test"
 
-model1_1_path = "/root/autodl-tmp/MAVOC_boilerplate/MAVOC_boilerplate/PBVS2025_SAR_Classification_WangLab/cross_model_2resnet.pth"
-model1_2_path = "/root/autodl-tmp/MAVOC_boilerplate/MAVOC_boilerplate/PBVS2025_SAR_Classification_WangLab/cross_model_1.pth"
+model1_1_path = "cross_model_2resnet.pth"
+model1_2_path = "cross_model_1.pth"
 model2_path = "model_complete.pth"
 
 mapping_path = "./classes.json"
